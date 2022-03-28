@@ -17,11 +17,12 @@ instructor: guile
 ---
 # An employee record
 
-instructor: 
+instructor:
   name: guile
   job: solutions-arct
   department: aws
   age: 37
+
 
 ---
 # Employee list
