@@ -147,7 +147,7 @@ resource "aws_instance" "tf-ec2" {
   ami           = "ami-0c02fb55956c7d316"
   instance_type = "t2.micro"
   tags = {
-    "Name" = "created-by-tf"
+    "Name" = "serdar-tf"
   }
 }
 ```
@@ -365,12 +365,12 @@ resource "aws_instance" "tf-ec2" {
   instance_type = "t2.micro"
   key_name      = "xxxxxxx"    # write your pem file without .pem extension>
   tags = {
-    "Name" = "tf-ec2"
+    "Name" = "serdar-tf-2"
   }
 }
 
 resource "aws_s3_bucket" "tf-s3" {
-  bucket = "serdar-tf-test-bucket-addwhateveryouwant"
+  bucket = "serdar-tf-test-bucket"
 }
 ```
 
