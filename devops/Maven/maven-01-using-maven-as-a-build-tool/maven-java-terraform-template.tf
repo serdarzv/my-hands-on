@@ -15,7 +15,7 @@ resource "aws_instance" "maven-ec2" {
   instance_type   = "t2.micro"
   
   //  Write your own pem file name
-  key_name        = "xxxxxxx"
+  key_name        = "xxxxxxxxxx"
   security_groups = ["maven-sec-grp"]
 
   tags = {
