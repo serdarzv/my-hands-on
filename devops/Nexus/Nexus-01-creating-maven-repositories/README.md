@@ -277,7 +277,7 @@ nano /home/ec2-user/.m2/settings.xml
     <server>
       <id>nexus</id>
       <username>admin</username>
-      <password>your-password</password> 
+      <password>xxxxxxxx</password> 
     </server>
   </servers>
 </settings>
@@ -355,7 +355,7 @@ nano /home/ec2-user/.m2/settings.xml
     <server>
       <id>nexus</id>
       <username>admin</username>
-      <password>your-password</password> 
+      <password>xxxxxxxxxxx</password> 
     </server>
   </servers>
 </settings>
@@ -472,7 +472,7 @@ nano /home/ec2-user/.m2/settings.xml
     <server>
       <id>nexus</id>
       <username>admin</username>
-      <password>your-password</password> 
+      <password>xxxxxxxx</password> 
     </server>
   </servers>
 </settings>
