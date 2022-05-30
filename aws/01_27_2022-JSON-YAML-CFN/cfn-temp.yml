@@ -9,7 +9,7 @@ Resources:
     Properties:
       ImageId: ami-08e4e35cccc6189f4
       InstanceType: t2.micro
-      KeyName: serdar # Please use your own key name without .pem
+      KeyName: xxxxx # Please use your own key name without .pem
       SecurityGroups: 
         - cfn-sec-group
       Tags:
