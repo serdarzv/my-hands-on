@@ -43,10 +43,10 @@ CREATE DATABASE clarusdb;
 SHOW DATABASES;
 
 # Create a user named 'clarususer'.
-CREATE USER clarususer IDENTIFIED BY 'clarus1234';
+CREATE USER clarususer IDENTIFIED BY 'xxxxxxxxxx';
 
 # Grant permissions to the user clarususer for database clarusdb.
-GRANT ALL ON clarusdb.* TO clarususer IDENTIFIED BY 'clarus1234' WITH GRANT OPTION;
+GRANT ALL ON clarusdb.* TO clarususer IDENTIFIED BY 'xxxxxxxxxx' WITH GRANT OPTION;
 
 # Update privileges.
 FLUSH PRIVILEGES;
