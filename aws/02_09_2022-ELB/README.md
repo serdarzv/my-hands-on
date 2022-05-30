@@ -76,7 +76,7 @@ t2.micro
 
 ```text
 Please select your key pair (pem key) that is created before
-Example: clarusway.pem
+Example: xxxxxxxx.pem
 ```
 
 - Network settings
