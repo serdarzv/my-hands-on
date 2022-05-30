@@ -53,7 +53,7 @@ Free tier
 ```text
 DB instance identifier: RDS-mysql
 Master username: admin
-Master password: Pl123456789
+Master password: xxxxxxxx
 ```
 
 - DB instance class
