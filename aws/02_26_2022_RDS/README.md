@@ -196,12 +196,12 @@ CREATE TABLE `clarusway`.`Personal_Info_2` (
 INSERT INTO clarusway.Personal_Info_1
 (ID_number, Name, Surname, Gender, Salary)
 VALUES
-('1234','Osvaldo','Clarusway','Male','40000'), 
+('1234','Serdar','Clarusway','Male','40000'), 
 ('56789','Guile','Clarusway','Male','50000'), 
 ('007','Charlie','Clarusway','Male','45000'), 
 ('432','Marcus','Clarusway','Male','50000'), 
 ('324','Vincenzo','Clarusway','Male','60000'), 
-('43546','Serdar','Clarusway','Male','65000');
+('43546','Bedis','Clarusway','Male','65000');
 ```
 
 - Write a query to show all data in the `Personal_Info_1` table
