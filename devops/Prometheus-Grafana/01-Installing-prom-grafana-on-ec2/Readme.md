@@ -54,8 +54,8 @@ Output:
 ```yaml
 # my global config
 global:
-  scrape_interval: 15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
-  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  scrape_interval: 20s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 25s # Evaluate rules every 15 seconds. The default is every 1 minute.
   # scrape_timeout is set to the global default (10s).
 
 # Alertmanager configuration
