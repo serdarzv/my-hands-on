@@ -147,7 +147,7 @@ resource "aws_instance" "tf-ec2" {
   ami           = "ami-0c02fb55956c7d316"
   instance_type = "t2.micro"
   tags = {
-    "Name" = "serdar-tf"
+    "Name" = "working-tf"
   }
 }
 ```
@@ -363,9 +363,9 @@ provider "aws" {
 resource "aws_instance" "tf-ec2" {
   ami           = "ami-0ed9277fb7eb570c9"
   instance_type = "t2.micro"
-  key_name      = "xxxxxxx"    # write your pem file without .pem extension>
+  key_name      = "xxxxxxxx"    # write your pem file without .pem extension>
   tags = {
-    "Name" = "serdar-tf-2"
+    "Name" = "working-tf-2"
   }
 }
 
